@@ -6,6 +6,11 @@ module.exports = withMDX({
       source: '/api/locations',
       destination: 'https://scrapyard.hackclub.com/api/locations',
       permanent: true
+    },
+    {
+      source: '/',
+      destination: 'https://scrapyard.hackclub.com/vancouver',
+      permanent: true
     }
   ]
 })
